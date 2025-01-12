@@ -9,7 +9,6 @@ class Solution {
             if (cnt == 3)
                 return nums[i - 1];
         }
-
         return nums[n - 1];
     }
 }
