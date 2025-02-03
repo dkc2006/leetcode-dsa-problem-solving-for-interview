@@ -1,4 +1,3 @@
-
 class Solution {
     public int longestMonotonicSubarray(int[] nums) {
         int incresing = 1, decresing = 1;
