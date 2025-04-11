@@ -21,7 +21,6 @@ class Solution {
         if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] != '1') {
             return;
         }
-
         grid[i][j] = '0'; // mark as visited
         dfs(grid, i + 1, j); // down
         dfs(grid, i - 1, j); // up
