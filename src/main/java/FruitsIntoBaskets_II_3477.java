@@ -5,7 +5,6 @@ class Solution {
 
         for (int fruit : fruits) {
             boolean placed = false;
-
             for (int i = 0; i < n; i++) {
                 if (fruit <= baskets[i]) {
                     baskets[i] = 0;
