@@ -1,5 +1,4 @@
 import java.util.*;
-
 class Solution {
     public String sortVowels(String s) {
         Set<Character> vowels = new HashSet<>(
@@ -23,7 +22,6 @@ class Solution {
                 result.append(c);
             }
         }
-
         return result.toString();
     }
 }
