@@ -7,6 +7,6 @@ class Solution {
                         Math.min(triangle.get(i + 1).get(j), triangle.get(i + 1).get(j + 1)));
             }
         }
-        return triangle.get(0).get(0);x
+        return triangle.get(0).get(0);
     }
 }
